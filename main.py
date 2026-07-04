@@ -13,10 +13,19 @@ import math
 import secrets
 import json
 import time
+import pygame
+
+
+
 
 #Need to make a database to store basic player info like how much money and their name
 
 
+print ("Welcome to Rubi Palace, what game would you like to play today.")
+with open('data.json' , 'r') as file:
+    pass
+
+# Slots basic logic, sucks ass need to upgrade
 
 print ("Welcome to the slot machine sim, enter x to spin")
 
