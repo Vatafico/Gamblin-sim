@@ -21,11 +21,9 @@ import pygame
 #Need to make a database to store basic player info like how much money and their name
 
 
-print ("Welcome to Rubi Palace, what game would you like to play today.")
-with open('data.json' , 'r') as file:
-    pass
+print ("Welcome to demo , what game would you like to play today.")
 
-# Slots basic logic, sucks ass need to upgrade
+# Game 1: Slots basic logic, sucks ass need to upgrade
 
 print ("Welcome to the slot machine sim, enter x to spin")
 
@@ -62,3 +60,25 @@ while True:
                 break
 
         break
+
+
+
+# Game 2: Blackjack yea
+
+print("Welcome to demo 2, press to p to get cards")
+
+while True:
+
+    bj1 = input()
+
+        if bj1 != "p" :
+        
+            print("I think you pressed the wrong key")
+
+        else:
+    
+            while True:
+
+                
+
+
